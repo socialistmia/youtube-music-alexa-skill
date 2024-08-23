@@ -8,7 +8,7 @@ const LaunchRequestHandler = {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const speakOutput = 'Welcome to youtube music';
+        const speakOutput = 'Welcome to YT music';
         const repromptSpeakOutput = 'You can say, play vikram title track, to begin'
 
         return handlerInput.responseBuilder
